@@ -1,3 +1,320 @@
-p {
-    color: aqua;
+html, body, div, span, h1, h2, h3, img, a, ol, ul, li {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    outline: none;
+    background: none;
+    font-family: "Noto Sans", "Noto Sans Japanese";
 }
+
+
+body {
+    font-size: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+div {
+    display: block;
+}
+
+.area-inner {
+    margin: 0 auto;
+}
+
+article {
+    position: relative;
+    min-width: 320px;
+    color: #3d3935;
+    word-break: normal;
+    overflow: hidden;
+    display: block;
+}
+
+.block-common-mv-barista {
+    background-image: url(img/backgroundimage.jpg);
+}
+
+.block-common-mv {
+    display: block;
+    padding-top: 47.22%;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-height: 750px;
+    position: relative;
+}
+
+.block-employment-common-main {
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.block-common-mv ._title {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgba(54, 46, 43, 0.65);
+    color: #fff;
+    padding: 11px 10px 11px 30px;
+}
+
+.block-common-mv ._title ._inner {
+    width: 740px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+._title h2 {
+    font-size: 20px;
+    display: inline-block;
+    padding: 4px 20px 4px 0;
+    font-weight: 300;
+}
+
+.mod-sp {
+    display: none;
+}
+
+._sub {
+    font-size: 16px;
+    display: inline-block;
+    border-left: 1px solid #fff;
+    padding: 7px 0 7px 20px;
+    font-weight: 200;
+}
+
+.block-employment-common-lead {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.block-employment-common-lead ._t2 {
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 1.714;
+}
+
+.block-employment-common-lead b {
+    color: #9c6f30;
+    font-weight: bold;
+}
+
+.block-employment-common-lead ._btns {
+    margin: 40px auto 0 auto;
+    width: 626px;
+    display: flex;
+    justify-content: space-between;
+}
+
+._btns ._btn {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    padding: 35px 0;
+    margin: 5px 0;
+    font-size: 16px;
+    background: #504036;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+a {
+    border: 0;
+    text-decoration: none;
+}
+
+.row-common {
+    width: 780px;
+    margin: 0 auto;
+}
+
+.block-employment-main-barista .row-01 {
+    position: relative;
+    height: 360px;
+}
+
+._image {
+    position: absolute;
+    top: 45px;
+    left: 30px;
+    width: 433px;
+}
+
+._texts {
+    position: absolute;
+    top: -20px;
+    left: 367px;
+    width: 375px;
+    padding: 18px 20px 20px 22px;
+    background: #fff;
+}
+._t1 {
+    font-size: 24px;
+    display: block;
+    font-weight: bold;
+}
+._t2 {
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.mod-en {
+    font-family: Arial, sans-serif;
+}
+
+._text {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.715;
+}
+
+._btnr {
+    display: block;
+    position: absolute;
+    top: 210px;
+    left: 545px;
+    width: 209px;
+    border: 1px solid #000;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.row-02 {
+    position: relative;
+    height: 470px;
+}
+
+.row-02 ._title {
+    margin-top: -65px;
+
+}
+
+.row-02 ._image {
+    position: absolute;
+    top: 0;
+    left: 452px;
+    width: 430px;
+}
+
+.block-employment-common-main .row-02 ._texts {
+    position: absolute;
+    top: 127px;
+    left: -24px;
+    width: 452px;
+    padding: 18px 20px 20px 22px;
+}
+
+.row-03 {
+    position: relative;
+    height: 415px;
+}
+
+.row-03 ._image {
+    position: absolute;
+    top: 95px;
+    left: 28px;
+    width: 382px;
+}
+
+.row-03 ._text {
+    margin: 0;
+}
+
+.row-03 ._texts {
+    position: absolute;
+    top: 5px;
+    left: 380px;
+    width: 350px;
+    padding-left: 15px;
+}
+
+.row-04 {
+    position: relative;
+    height: 580px;
+
+}
+
+.row-04 ._image {
+    position: absolute;
+    top: 120px;
+    left: 385px;
+    width: 356px;
+}
+
+.row-04 ._texts {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 405px;
+}
+
+.row-04 ._btnr {
+    position: absolute;
+    top: 458px;
+    left: 5px;
+    width: 210px;
+}
+
+.row-05 {
+    position: relative;
+    height: 340px;
+}
+
+.row-05 ._image {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    width: 356px;
+}
+
+.row-05 ._texts {
+    position: absolute;
+    top: 90px;
+    left: 385px;
+    width: 335px;
+    height: 140px;
+    padding-bottom: 100px;
+}
+.row-05 ._title {
+    position: absolute;
+    top: 0px;
+}
+.row-05 ._text {
+    position: absolute;
+    top: 70px;
+}
+
+.row-05 ._btnr {
+    position: absolute;
+    top: 276px;
+    left: 520px;
+    width: 210px;
+}
+
+.block-common-return-top ._btn{
+    display: inline-block;
+    color: #fff;
+    padding: 18px;
+    width: 220px;
+    font-size: 16px;
+    border-radius: 5px;
+    background: #a6937c;
+    margin-top: 140px;
+    margin-left: 350px;
+    margin-bottom: 200px;
+}
+
+
